@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat d'analyse/Matchs Prédiction</title>
+</head>
+
+<body>
+    <div class="Titre">
+        <h1>Matchs Prédiction ⚽</h1>
+    </div>
+    <main>
+        <div class="resultat">
+            <div class="part1">
+                <div class="voir">
+                    <H2>Match</H2>
+                </div>
+                <div class="affiche">
+                    <h3> {{equip1}} VS {{equip2}} </h3>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="1">Score possible</div>
+                <div class="2">Classement</div>
+                <div class="3">Victoire ou Nul</div>
+                <div class="4">
+                    <h1>{{ team1 }} vs {{ team2 }}</h1>
+
+                    <h2>⚽ Match trouvé</h2>
+                    <p>{{ match }}</p>
+
+                    <h2>📊 Stats équipe 1</h2>
+                    <p>{{ stats1 }}</p>
+
+                    <h2>📊 Stats équipe 2</h2>
+                    <p>{{ stats2 }}</p>
+
+                    <h2>🔮 Prédiction</h2>
+                    <p>Victoire équipe 1 : {{ prediction.prob_team1 }}%</p>
+                    <p>Match nul : {{ prediction.prob_draw }}%</p>
+                    <p>Victoire équipe 2 : {{ prediction.prob_team2 }}%</p>
+
+                    <h3>🏆 Résultat probable : {{ prediction.winner }}</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <div class="Pub"></div>
+    <div class="infos">
+        <p>Nous vous proposons des analyses simples et fiables de vos matchs pour augmenter vos rendement en respectant
+            votre anonymat et vos informations personnelles</p>
+        <p>Pour plus d'infos <a href="/contact">contacter-moi</a></p>
+    </div>
+    <link rel="stylesheet" href="/static/style.css">
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    height: 100vh;
+    background: url(/static/file_00000000aaa071f4a1945ae66f890d57.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Titre {
+    background: rgba(255, 0, 0, 0.877);
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+main {
+    margin-top: 50px;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+main .coordonnees {
+    background: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+main .coordonnees .donnees form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .coordonnees .donnees form input {
+    width: 60%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+main .coordonnees .donnees form button {
+    height: 30px;
+    width: 20%;
+    border-radius: 10px;
+    background: aquamarine;
+}
+
+main .resultat {
+    background: rgba(0, 0, 0, 0.842);
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .resultat .part1 {
+    background: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main .resultat .part1 .affiche {
+    background: blue;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+
+main .resultat .part2 {
+    background: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr {
+    margin-bottom: 5px;
+}
+
+.Pub {
+    min-height: 0;
+    width: 100%;
+}
+
+.infos {
+    background: rgba(255, 0, 0, 0.877);
+    height: 80px;
+    text-align: center;
+}
